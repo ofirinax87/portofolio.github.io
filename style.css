@@ -1,0 +1,133 @@
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        z-index: 5;
+    }
+}
+
+body {
+    background-color: #06013a;
+    color: #fefefe;
+}
+
+.navbar2 {
+    background-color: #08033c;
+    color: #fefefe;
+    border-bottom: 1px solid #fefefe;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar-brand2 {
+    background-color: #08033c;
+    color: #fefefe;
+    text-decoration-color: #fefefe;
+    border-color: #fefefe;
+}
+
+.nav-link2 {
+    color: #fefefe;
+    text-decoration-color: #fefefe;
+}
+
+.navbar-toggler {
+    border-color: rgba(254, 254, 254, 0.5);
+    filter: invert(1);
+}
+
+.card-body:hover .card-title .card-text {
+    background-color: #0e0857;
+}
+
+.card2 {
+    background-color: #251b3d;
+    color: #fefefe;
+    border-color: #fefefe;
+}
+
+.card-single {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.card-flex {
+    width: 25%;
+}
+
+.card3 {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    background-color: #251b3d;
+    color: #fefefe;
+    border-color: #fefefe;
+}
+
+.card-experience {
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2.5%;
+    background-color: #251b3d;
+    color: #fefefe;
+    border-color: #fefefe;
+}
+
+.card-achievement {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2.5%;
+    background-color: #251b3d;
+    color: #fefefe;
+    border-color: #fefefe;
+}
+
+
+.whatever {
+    display: flex;
+}
+
+.whatever-center {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.notwhatever {
+    display: fixed;
+}
+
+#carouselExampleCaptions {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+}
+
+#carouselExampleCaptions2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.carousel-caption {
+    font-size: small;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(83, 33, 190, 0.51);
+    color: #fefefe;
+    text-align: center;
+    line-height: 50px;
+}
